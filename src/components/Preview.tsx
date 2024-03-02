@@ -19,7 +19,7 @@ function prependUseClientIfNeeded(inputString: string): string {
 
   // Prepend "use client"; to the string if any keyword is found
   if (containsHook) {
-    return `"use client;"
+    return `"use client";
 ${inputString}`;
   }
 
